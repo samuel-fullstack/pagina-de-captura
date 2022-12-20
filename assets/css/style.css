@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: yellowgreen   ;
+}
+.captacao-cont{
+
+    height: 500px;
+}
+.captacao{
+    width: 300px;
+    background-color: aliceblue;
+}
