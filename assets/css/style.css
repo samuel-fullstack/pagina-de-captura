@@ -1,17 +1,77 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
 
-body{
-    background-color: yellowgreen   ;
+
+
+header{
+    text-align: center;
+    color: white;
+    background-color:rgb(86, 205, 209) ;
+    padding: 10px;
 }
+
 .captacao-cont{
-
-    height: 500px;
+    
+    padding: 20px;
+    background-image: url('../images/images/people.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    align-items: center;    
 }
 .captacao{
-    width: 300px;
-    background-color: aliceblue;
+    font-size: 0.9rem;
+    margin-top: 20px ;
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    right: 10px;
+    width: 200px;
+    background-color: rgba(242, 243, 245, 0.858);
+}
+.captacao p{
+    margin-top: 10px;
+    
+}
+form{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input , select{
+    width: 180px;
+    padding: 5px;
+    border: none;
+    margin: 4px;
+    
+}
+input:focus , select:focus{
+    outline: none;
+    
+}
+
+
+.palestrante-cont{
+    background-color: rgb(35, 33, 33);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.palestrante{
+    width: 70%;
+}
+
+
+img{
+    width: 200px;
+    height: 300px;
+    float: left;
 }
